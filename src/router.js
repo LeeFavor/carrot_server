@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router(); // express의 Router 인스턴스 생성
 
-const multer = require('multer');
+const multer = require('multer');   
 const upload = multer({ dest: 'storage/' });
 const authenticateToken = require('./middleware/authenticate');
 
